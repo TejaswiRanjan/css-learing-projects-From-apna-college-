@@ -1,0 +1,116 @@
+/* Color Propert => it is used to set the property of the color of forehead */
+*{
+    color : rgb(93, 14, 56)
+}
+h3{
+    color : rgb(8, 242, 121);
+}
+/* Backgroud Color Property => Used to set color of background; */
+p{
+    color :rgb(4, 159, 249);
+    background-color: brown;
+}
+button{
+    color : blue;
+    background-color: aqua;
+}
+body{
+    background-color: rgb(197, 160, 149);
+}                                                                                               
+#id1{
+    color: blueviolet;
+}
+#id2{
+    color: rgb(70, 5, 249);
+}
+.Studentdetails{
+    color: black;
+
+}
+/* Textallign property => Used to allign the text */
+#p1{
+    text-align: left;
+}
+#p2{
+    text-align: center;
+}
+#p3{
+    text-align: right;
+}
+#p4{
+    text-align: start;
+}
+#p5{
+    text-align: end;
+}
+/* Text decoration => Used to decorate the text */
+#underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#line-through{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+#tej{
+    text-decoration: red underline;
+    text-align: center;
+}
+
+/* Font - Weight => Used to set wight of the font (means how much color is used in set the font) */
+#hd1{
+    font-weight: normal;
+}
+#hd2{
+    font-weight: bold;
+}
+#hd3{
+    font-weight: bolder;
+}
+#hd4{
+    font-weight: lighter;
+}
+#hd5{
+    font-weight: 254;
+}
+/* Font - Family => Used to set the style of the font means style of the font */
+#hd6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hd7{
+    font-family: cursive;
+}
+/* Text properties(font - size) => It is used to set the size of the font */
+#sizeproperty1{
+    font-size: 20px;
+}
+#sizeproperty2{
+    font-size: 20pt;
+}
+#sizeproperty3{
+    font-size: normal;
+}
+/* Text property(line - height) => It is used to set the height between two lines. */
+#lineheight1{
+    line-height: 50px;
+}
+#lineheight2{
+    line-height: 2pc;
+}
+#lineheight3{
+    line-height: normal;
+}
+/* Text property(text-tranform) => It is used to set to transform the text like upper case to lower case */
+#texttransform1{
+    text-transform: uppercase;
+}
+#texttransform2{
+    text-transform: lowercase;
+}
+#texttransform3{
+    text-transform: capitalize;
+}
