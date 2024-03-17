@@ -1,0 +1,63 @@
+/*
+Level Model in css
+
+Box model in css(Height,Width,Border,Padding,Margin)
+
+*/
+div{
+    background-color: aqua;
+    height: 50px;
+    /*
+    By default it sets the content area height of the element
+    */
+    width: 200px;
+    /*
+    By default it sets the content area width of the element
+    */
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+    /*
+    It is used to set or make the border(color,style,width)
+    Short hand : (border:2px dotted black)
+    */
+    border-radius: 15px;
+    /*
+    padding
+    padding - left
+    padding - righgt
+    padding - top
+    padding - bottom
+
+    Shorthand : (padding : 50px 50px 50px 50px (clockwise))
+    The distance between content area and container is called as padding
+    */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    
+}
+#div1{
+    /*
+    Used to round the corners of an element's outer border edge
+    Note : if you want to make the circle set the border radius to 50%
+    */
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 50%;
+}
+P{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /*
+    Shorthand :(margin : 50px) (margin : 1px 2px 3px 4px (clockwise))
+    */
+}

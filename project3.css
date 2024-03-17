@@ -1,0 +1,23 @@
+#amazon{
+    background-color: black;
+    height: 60px;
+}
+*{
+    color: white;
+}
+#logo{
+    color: orangered;
+
+}
+button{
+    background-color: orangered;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}#Q1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
