@@ -12,7 +12,7 @@
     <!--
         Box Model in ccs
     -->
-    <div>
+    <div id="Div">
         
         <h1>
             Hello World
@@ -22,6 +22,48 @@
 
     </div>
     <p> hello guys in my programming world ! </p>
+
+    <!--
+        Display Property
+        display : inline/block/inline-block/none
+        
+        *inline => Takes only the space required by the element (no margin/padding).It takes as 
+        much space that required that is it takes space only of content area.
+        *block => Takes full space available in width. It takes total space on the webpage.
+        *inline-block => Similar to inline but we can set margin and padding to the element.
+        *none - To remove element from document flow.It is basically used to delete the elemnts.
+
+        VISIBILITY
+        visibility : hidden;
+        Note :- When visibility is set to none, space for the element is reserved, But for display 
+        set to none, no space is reserved on blocked for the element.
+        
+        Alpha channel
+        opacity(0 to 1)
+        *RGBA
+        color : rgba(255,0,0,0.5)
+        color : rgba(255,0,0,1)
+        Opacity is used to set the color brightness line dark black or fet black
+    -->
+
+    <h1 id="inline">
+        display : inline;
+    </h1>
+    <div id="hidden">
+        
+    </div>
+
+    <a id="block">
+        display : block;
+    </a>
+    <div id="none">
+
+    </div>
+    <h1 id="inline-block">
+        display : inline-block;
+    </h1>
+    
+
     
 </body>
 </html>

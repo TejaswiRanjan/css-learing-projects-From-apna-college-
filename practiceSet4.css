@@ -1,0 +1,46 @@
+#amazon{
+    background-color: black;
+    height: 60px;
+}
+*{
+    color: white;
+}
+#logo{
+    color: orangered;
+
+}
+button{
+    background-color: orangered;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    background-color: rgba(255, 0, 0, 0.5);
+
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    background-color: rgba(0, 255, 0, 0.5);
+
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    background-color: rgba(0, 0, 255, 0.5);
+
+}

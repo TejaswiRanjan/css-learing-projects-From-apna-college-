@@ -4,7 +4,7 @@ Level Model in css
 Box model in css(Height,Width,Border,Padding,Margin)
 
 */
-div{
+#Div{
     background-color: aqua;
     height: 50px;
     /*
@@ -60,4 +60,31 @@ P{
     /*
     Shorthand :(margin : 50px) (margin : 1px 2px 3px 4px (clockwise))
     */
+}
+#inline{
+    display: inline;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+#block{
+    display: block;
+
+}
+#inline-block{
+    display: inline-block;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+#none{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    display: none;
+
+}
+#hidden{
+    height: 100px;
+    width: 100px;
+    background-color:brown ;
+    visibility: hidden;
 }
