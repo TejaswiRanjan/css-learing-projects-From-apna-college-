@@ -1,0 +1,23 @@
+#div101{
+    height: 200px;
+    width: 200px;
+    margin: 600px;
+    background-color: white;
+    border: 20px solid red;
+    border-radius: 50%;
+    border-left: 20px solid green;
+    border: 20;
+    animation-name: loader;
+    animation-duration: 500ms;
+    animation-timing-function: normal;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes loader{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+

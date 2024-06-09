@@ -1,0 +1,113 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 8, 8);
+}
+
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 8, 8);
+    font-size: 10px;
+}
+
+#div4{
+    height: 50%;
+    width: 50%;
+    font-size: 2em;
+    background-color: blueviolet;
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 8, 8);
+    font-size: 10px;
+}
+
+#div4{
+    height: 3em;
+    width: 2.5em;
+    font-size: 2em;
+    background-color: blueviolet;
+}
+
+#div5{
+    height: 6rem;
+    width: 6rem;
+    background-color: aquamarine;
+}
+
+#div6{
+    height: 20vh;
+    background-color: darkblue;
+}
+
+#div7{
+    height: 20vw;
+    background-color: coral;
+    width: 50vw;
+}
+
+span{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 5px;
+}
+#box1{
+    position: static;
+    top: 100px;
+}
+
+#box2{
+    position: relative;
+    top: 20px;
+}
+
+#box3{
+    position: absolute;
+    top: 50px;
+}
+#box4{
+    position: fixed;
+    top : 50px;
+    
+}
+#box5{
+    position: sticky;
+    
+    top:400px;
+    right: 0px;
+}
+
+#z1{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    z-index: -1;
+
+}
+#z2{
+    position: relative;
+    z-index: 1;
+    background-image: url(MPNU\ .jpg);
+}
+#z3{
+    background-image: url(MPNU\ .jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#z4{
+    background-image: url(MPNU\ .jpg);
+    background-size: cover;
+    
+}

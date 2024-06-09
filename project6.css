@@ -1,0 +1,28 @@
+ul{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+#flex{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: dodgerblue;
+}

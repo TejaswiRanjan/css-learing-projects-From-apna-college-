@@ -1,0 +1,55 @@
+#id101{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: step-start;
+    font-size: 0px;
+
+}
+
+#id101:hover{
+    background-color: cornflowerblue;
+    
+}
+
+#id101:active{
+    background-color: tomato;
+    color: darkred;
+    font-size: 100px;
+}
+#div102{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    margin-left: 600px;
+    transition: all 1s ease-in-out 0s;
+}
+
+#div102:hover{
+    
+    background-size: cover;
+    transform: skew(45deg);
+    
+}
+
+#div103{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    animation-name: Tejaswi;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes Tejaswi{
+    0%{translate: 0px;
+    background-color: indigo;}
+    50%{translate: 400px;background-color: teal;}
+    100%{translate: 800px;background-color: tomato;}
+
+    }
